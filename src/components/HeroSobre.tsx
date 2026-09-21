@@ -128,8 +128,8 @@ export const HeroSobre: React.FC = () => {
           <div className="max-w-[65ch] mx-auto space-y-6 text-left body-text mb-10">
             <p>
               Com <strong className="font-semibold text-[#8b4a7a]">mais de 15 anos de prática clínica</strong> e{" "}
-              <strong className="font-semibold text-[#8b4a7a]">uma década dedicada à docência e à supervisão clínica</strong>,
-              construí minha trajetória profissional no encontro fecundo entre o estudo rigoroso, o ensino generoso e a clínica winnicottiana.
+              <strong className="font-semibold text-[#8b4a7a]">uma década dedicada à docência e à supervisão clínica</strong>,{" "}
+              criei e encontrei minha trajetória profissional entre a vida acadêmica e a prática clínica winnicottianamente orientada.
             </p>
 
             <p>
@@ -142,18 +142,18 @@ export const HeroSobre: React.FC = () => {
             <p>
               Ao longo de mais de 10 anos como{" "}
               <strong className="font-semibold text-[#8b4a7a]">supervisora clínica</strong> nas modalidades individual e grupal,
-              acompanhei mais de <strong className="font-semibold text-[#8b4a7a]">120 profissionais</strong> de psicologia e psicanálise.
+              acompanhei mais de <strong className="font-semibold text-[#8b4a7a]">120 profissionais</strong> de psicologia e psicanálise em um espaço de troca, compartilhamento de experiências e conhecimento e acolhimento de dúvidas e angústias.
             </p>
 
             <p>
-              Atualmente trabalho como{" "}
+              Atualmente trabalho em duas instituições, como{" "}
               <strong className="font-semibold text-[#8b4a7a]">
-                professora da especialização em Psicoterapia Psicanalítica Contemporânea
+                professora de especialização em Psicoterapia Psicanalítica Contemporânea
               </strong>{" "}
               da Escola de Psicoterapia Psicanalítica de Maringá (EPPM) e da{" "}
               <strong className="font-semibold text-[#8b4a7a]">
                 Pós-Graduação em Psicanálise Winnicottiana da PUC-PR
-              </strong>, onde ministro disciplinas sobre a escuta, a comunicação e as estratégias para a organização do pensamento clínico.
+              </strong>, onde ministro disciplinas com os seguintes temas: a escuta, a comunicação e interpretação no setting analítico; as estratégias para a organização do pensamento clínico, e sobre as propostas teórico-clínicas de D. W. Winnicott.
             </p>
 
             <p>
