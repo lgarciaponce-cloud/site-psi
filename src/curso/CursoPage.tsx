@@ -26,11 +26,11 @@ export const FAQ: { q: string; a: string }[] = [
   },
   {
     q: "Quantas horas tem o curso?",
-    a: "Mais de 12 horas: mais de 8 horas de aulas teóricas e 6 horas de encontros clínicos imersivos, em três encontros de 2 horas.",
+    a: "Mais de 12 horas: mais de 8 horas de aulas teóricas e 6 horas de encontros imersivos imersivos, em três encontros de 2 horas.",
   },
   {
     q: "As aulas são ao vivo ou gravadas?",
-    a: "Todas as aulas são gravadas, inclusive os três encontros clínicos com casos ilustrativos e exercícios. Você assiste no seu ritmo.",
+    a: "Todas as aulas são gravadas, inclusive os três encontros imersivos com casos ilustrativos e exercícios. Você assiste no seu ritmo.",
   },
   {
     q: "Por quanto tempo tenho acesso às aulas?",
@@ -86,8 +86,8 @@ const AULAS = [
   { aula: "Aula 2", tema: "Fase de dependência relativa", foco: "Desilusão e início dos processos mentais, transicionalidade, uso do objeto e estágio do “eu sou”." },
   { aula: "Aula 3", tema: "Fase rumo à independência relativa", foco: "Estágio do concernimento: agressividade, culpa e reparação." },
   { aula: "Aula 4", tema: "Fase de independência relativa", foco: "Complexo de Édipo, latência, adolescência, idade adulta e velhice." },
-  { aula: "Aula 5", tema: "Nosografia, diagnóstico e tratamento", foco: "Organização defensiva, classificação maturacional, análise padrão e análise modificada, quadros sintomatológicos especiais." },
-  { aula: "Encontros clínicos", tema: "A técnica ilustrada", foco: "Hipóteses diagnósticas, casos ilustrativos, exercícios clínicos e construção de intervenções interpretativas." },
+  { aula: "Aula 5", tema: "Pressupostos winnicottianos da técnica, do diagnóstico e do tratamento", foco: "Organização defensiva, classificação maturacional, análise padrão e análise modificada, quadros sintomatológicos especiais." },
+  { aula: "Encontros imersivos 1, 2 e 3", tema: "A técnica ilustrada", foco: "Hipóteses diagnósticas, casos ilustrativos, exercícios clínicos e construção de intervenções interpretativas." },
 ];
 
 const CLASSIFICACAO = [
@@ -204,7 +204,7 @@ export default function CursoPage() {
             <p className="body-text text-base md:text-lg mb-7 text-left md:text-center">
               A Imersão Winnicottiana: Criando-Encontrando a Teoria e a Clínica é um curso online de mais de 12
               horas, conduzido pela psicanalista Larissa Ponce, doutora em Psicologia Clínica pela PUC-SP. São mais
-              de 8 horas de aulas teóricas e 6 horas de encontros clínicos, todos gravados, com acesso por 8 meses e
+              de 8 horas de aulas teóricas e 6 horas de encontros imersivos, todos gravados, com acesso por 8 meses e
               certificado. O curso percorre a Teoria do Amadurecimento Emocional de D. W. Winnicott até o
               diagnóstico, a nosografia e o manejo clínico, para psicólogos, estudantes e psicanalistas que querem
               levar Winnicott para o consultório.
@@ -221,7 +221,7 @@ export default function CursoPage() {
                   ["Formato", "Online, com aulas gravadas"],
                   ["Carga horária total", "Mais de 12 horas"],
                   ["Aulas teóricas", "Mais de 8 horas"],
-                  ["Encontros clínicos", "6 horas, em três encontros de 2 horas, com casos ilustrativos e exercícios clínicos"],
+                  ["Encontros imersivos", "6 horas, em três encontros de 2 horas, com casos ilustrativos e exercícios clínicos"],
                   ["Acesso", "8 meses após a compra"],
                   ["Certificado", "Sim"],
                   ["Docente", "Larissa Ponce, psicóloga (CRP 08/24725), mestre e doutora em Psicologia Clínica (PUC-SP)"],
@@ -272,8 +272,9 @@ export default function CursoPage() {
 
         <Section id="conteudo" title="O que você vai estudar" bg="bg-[#ffffff]">
           <p className="body-text mb-4">
-            O curso segue a linha do amadurecimento, da dependência absoluta à independência relativa, e termina na
-            nosografia e no tratamento. Depois, os encontros clínicos mostram a técnica em ação.
+            O curso tem três módulos: Teoria do Amadurecimento Emocional (aulas 1 a 4); Pressupostos
+            winnicottianos da técnica, do diagnóstico e do tratamento (aula 5); e Encontros imersivos (três
+            encontros que mostram a técnica em ação).
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full border-collapse">
@@ -371,7 +372,7 @@ export default function CursoPage() {
           </div>
         </Section>
 
-        <Section id="encontros" title="Como funcionam os encontros clínicos">
+        <Section id="encontros" title="Como funcionam os encontros imersivos">
           <p className="body-text">
             Os três encontros de 2 horas são o espaço de integração entre teoria e clínica. Neles, você acompanha
             casos ilustrativos, faz exercícios clínicos e pratica a construção de intervenções interpretativas a
