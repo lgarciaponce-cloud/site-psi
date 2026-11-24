@@ -26,6 +26,10 @@ export const ImersaoDetalhes: React.FC = () => {
           <p className="body-text text-[#8b4a7a] font-medium text-base md:text-lg">
             Uma metodologia desenhada para transformar a maneira como você escuta, maneja e sustenta os processos terapêuticos.
           </p>
+          <a href="/curso-psicanalise-winnicottiana/" className="btn-primary inline-flex mt-6">
+            <BookOpen className="w-4 h-4" aria-hidden="true" />
+            <span>Conheça o programa do curso</span>
+          </a>
         </div>
 
         {/* Destaques em grid de 2 colunas no desktop */}
@@ -102,7 +106,7 @@ export const ImersaoDetalhes: React.FC = () => {
               className="btn-secondary inline-flex"
             >
               <BookOpen className="w-4 h-4" aria-hidden="true" />
-              <span>Ver programa completo, preço e perguntas frequentes</span>
+              <span>Conheça o programa do curso</span>
             </a>
             <a
               href={LINKS.hotmart}

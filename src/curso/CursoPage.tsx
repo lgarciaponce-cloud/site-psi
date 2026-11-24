@@ -211,17 +211,16 @@ export default function CursoPage() {
                 São mais de 12 horas de aulas gravadas, com acesso por 8 meses e certificado.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <CTA label="Quero fazer a Imersão" />
                 <a href="#frentes" className="btn-secondary inline-flex">
                   Ver o programa
                 </a>
               </div>
             </div>
             <img
-              src="/larissa_blazer_lavanda.jpg"
-              alt="Larissa Garcia Ponce, psicanalista winnicottiana, segurando um livro de Winnicott"
-              width={819}
-              height={1024}
+              src="/curso/larissa-boneco-winnicott.jpg"
+              alt="Larissa Garcia Ponce sorrindo, com um boneco de crochê de D. W. Winnicott"
+              width={900}
+              height={1600}
               className="w-full max-w-[360px] mx-auto rounded-[16px] shadow-md object-cover"
             />
           </div>
@@ -541,7 +540,7 @@ export default function CursoPage() {
               <p className="body-text mb-6">
                 O convite é para criar-encontrar a teoria e a clínica do seu jeito e no seu tempo.
               </p>
-              <CTA label="Garantir minha vaga na Imersão" />
+              <CTA label="Quero fazer a Imersão" />
             </div>
             <img
               src="/curso/imersao-card.jpg"
