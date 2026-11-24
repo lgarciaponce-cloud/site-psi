@@ -303,3 +303,31 @@ body {
   height: 100%;
   border: 0;
 }
+
+/* Página do curso */
+.curso-titulo {
+  font-family: var(--font-serif-title);
+  color: #8b4a7a;
+  font-weight: 800;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+.curso-subtitulo {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #c084b8;
+  margin-top: 0.5rem;
+  letter-spacing: 0;
+}
+@media (min-width: 768px) {
+  .curso-titulo { font-size: 3.6rem; }
+  .curso-subtitulo { font-size: 1.85rem; }
+}
+mark.grifo {
+  background: linear-gradient(transparent 45%, #f6c6e4 45%);
+  color: inherit;
+  padding: 0 0.1em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}

@@ -194,21 +194,22 @@ export default function CursoPage() {
         <section className="section-padding bg-[#DCEDF8]" aria-labelledby="curso-h1">
           <div className="max-w-[1120px] mx-auto grid grid-cols-1 md:grid-cols-[1.4fr_1fr] gap-8 md:gap-12 items-center">
             <div>
-              <span className="inline-block bg-[#c5e6e8] text-[#8b4a7a] px-4 py-1 rounded-[6px] text-xs font-semibold uppercase tracking-wider mb-3">
-                Imersão Winnicottiana: Criando-Encontrando a Teoria e a Clínica
-              </span>
-              <h1 id="curso-h1" className="heading-h2 mb-5">
-                Curso de Psicanálise Winnicottiana: amadurecimento, diagnóstico e manejo clínico
+              <h1 id="curso-h1" className="curso-titulo mb-4">
+                Imersão Winnicottiana
+                <span className="block curso-subtitulo">Criando-Encontrando a Teoria e a Clínica</span>
               </h1>
+              <p className="inline-block bg-[#c5e6e8] text-[#8b4a7a] px-4 py-1.5 rounded-[6px] text-sm font-semibold mb-5">
+                Curso de Psicanálise Winnicottiana: amadurecimento, diagnóstico e manejo clínico
+              </p>
               <p className="body-text text-base md:text-lg mb-4">
                 A Imersão Winnicottiana é um curso online conduzido pela psicanalista Larissa Garcia Ponce, doutora e
                 mestre em Psicologia Clínica pela PUC-SP, que percorre a obra de D. W. Winnicott em três frentes
-                articuladas: a Teoria do Amadurecimento Emocional, os pressupostos winnicottianos da técnica, do
-                diagnóstico e da nosografia e o manejo clínico, examinado em encontros imersivos nos quais a técnica é
+                articuladas: <mark className="grifo">a Teoria do Amadurecimento Emocional</mark>, <mark className="grifo">os pressupostos winnicottianos da técnica, do
+                diagnóstico e da nosografia</mark> e <mark className="grifo">o manejo clínico</mark>, examinado em encontros imersivos nos quais a técnica é
                 ilustrada por casos e pela construção de intervenções interpretativas.
               </p>
               <p className="body-text mb-7">
-                São mais de 12 horas de aulas gravadas, com acesso por 8 meses e certificado.
+                São <mark className="grifo">mais de 12 horas de aulas gravadas</mark>, com <mark className="grifo">acesso por 8 meses e certificado</mark>.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a href="#frentes" className="btn-secondary inline-flex">
@@ -254,8 +255,8 @@ export default function CursoPage() {
 
         <Section id="frentes" title="As três frentes do curso">
           <p className="body-text mb-6">
-            O curso organiza-se em três módulos que correspondem a três frentes de estudo. A Teoria do Amadurecimento
-            Emocional constitui o fundamento a partir do qual Winnicott pensa a saúde, a doença e o tratamento, e é
+            O curso organiza-se em três módulos que correspondem a <mark className="grifo">três frentes de estudo</mark>. A Teoria do Amadurecimento
+            Emocional constitui <mark className="grifo">o fundamento</mark> a partir do qual Winnicott pensa a saúde, a doença e o tratamento, e é
             dela que derivam o diagnóstico, a nosografia e as escolhas técnicas que o manejo clínico coloca em
             prática.
           </p>
@@ -278,7 +279,7 @@ export default function CursoPage() {
 
           <div className="mt-10 bg-[#ffffff] p-6 sm:p-8 rounded-[16px] border border-[#badbde] shadow-sm">
             <h3 className="heading-h3 mb-2 text-center">Amostra do curso</h3>
-            <p className="body-text mb-5 text-center">Um trecho das aulas, para conhecer a proposta e a dinâmica do curso.</p>
+            <p className="body-text mb-5 text-center">Assista à amostra para entender o percurso formativo e a dinâmica das aulas.</p>
             <div className="video-frame shadow-md mx-auto">
               <iframe
                 src={LINKS.videoEmbed}
@@ -300,8 +301,8 @@ export default function CursoPage() {
           <div className="space-y-4 body-text mb-6">
             <p>
               As quatro primeiras aulas apresentam a Teoria do Amadurecimento Emocional, desde a biografia de
-              Winnicott e o contexto histórico em que suas formulações se constituíram até o percurso que vai da
-              dependência absoluta à independência relativa. Em cada fase, o estudo situa as tarefas que o indivíduo
+              Winnicott e o <mark className="grifo">contexto histórico</mark> em que suas formulações se constituíram até o percurso que vai da{" "}
+              <mark className="grifo">dependência absoluta à independência relativa</mark>. Em cada fase, o estudo situa as tarefas que o indivíduo
               tem de realizar e as condições ambientais de que depende para realizá-las, uma vez que, para Winnicott, o
               bebê só pode começar a ser se um ambiente facilitador se adaptar às suas necessidades e sustentar a sua
               continuidade de ser.
@@ -339,8 +340,8 @@ export default function CursoPage() {
         <Section id="diagnostico" kicker="Frente 2 · Aula 5" title="Técnica, diagnóstico e nosografia">
           <div className="space-y-4 body-text">
             <p>
-              A quinta aula trata dos pressupostos winnicottianos da técnica, do diagnóstico e do tratamento. Uma vez
-              que Winnicott compreende a doença como interrupção do amadurecimento, o diagnóstico deixa de se apoiar
+              A quinta aula trata dos <mark className="grifo">pressupostos winnicottianos da técnica, do diagnóstico e do tratamento</mark>. Uma vez
+              que Winnicott compreende a doença como <mark className="grifo">interrupção do amadurecimento</mark>, o diagnóstico deixa de se apoiar
               apenas na sintomatologia e passa a considerar o momento e a natureza da falha ambiental, assim como a
               organização defensiva que dela resultou.
             </p>
@@ -348,7 +349,7 @@ export default function CursoPage() {
               A partir desse pressuposto, a aula apresenta os critérios de um diagnóstico orientado pelo
               amadurecimento, a classificação dos pacientes em integrados, recém-integrados e não-integrados
               (Fulgencio, 2016), a distinção entre análise padrão e análise modificada, as variedades clínicas da
-              transferência e os quadros sintomatológicos especiais: a depressão, a persecutoriedade, a tendência
+              transferência e os <mark className="grifo">quadros sintomatológicos especiais</mark>: a depressão, a persecutoriedade, a tendência
               antissocial e a psicopatia, os quadros psicossomáticos e as adicções e as organizações de falso self.
             </p>
           </div>
@@ -357,12 +358,12 @@ export default function CursoPage() {
         <Section id="manejo" kicker="Frente 3 · Encontros imersivos 1, 2 e 3" title="Manejo clínico: a técnica ilustrada" bg="bg-[#ffffff]">
           <div className="space-y-4 body-text">
             <p>
-              Os três encontros imersivos, de 2 horas cada, são dedicados à técnica ilustrada. A partir de casos
-              clínicos, exercita-se a formulação de hipóteses diagnósticas orientadas pelo amadurecimento e a
-              construção de intervenções compatíveis com o momento em que o paciente se encontra.
+              Os três encontros imersivos, de 2 horas cada, são dedicados à <mark className="grifo">técnica ilustrada</mark>. A partir de casos
+              clínicos, exercita-se a <mark className="grifo">formulação de hipóteses diagnósticas</mark> orientadas pelo amadurecimento e a{" "}
+              <mark className="grifo">construção de intervenções</mark> compatíveis com o momento em que o paciente se encontra.
             </p>
             <p>
-              Nesse percurso são trabalhadas a tarefa interpretativa na perspectiva winnicottiana, as modalidades
+              Nesse percurso são trabalhadas a <mark className="grifo">tarefa interpretativa</mark> na perspectiva winnicottiana, as modalidades
               diferenciadas de intervenção e as formas de comunicação e de não comunicação que orientam o analista na
               clínica de pacientes regredidos e de difícil acesso.
             </p>
@@ -390,7 +391,7 @@ export default function CursoPage() {
           </ul>
         </Section>
 
-        <Section id="docente" title="Quem conduz: Larissa Garcia Ponce" bg="bg-[#ffffff]">
+        <Section id="docente" title="Quem conduz: Profa. Dra. Larissa Garcia Ponce" bg="bg-[#ffffff]">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_1.6fr] gap-8 items-start">
             <img
               src="/curso/larissa-quadro-winnicott.jpg"
@@ -402,8 +403,8 @@ export default function CursoPage() {
             />
             <div className="space-y-4 body-text">
               <p>
-                Larissa Garcia Ponce é psicóloga formada pela UNESP (CRP 08/24725), mestre e doutora em Psicologia
-                Clínica pela PUC-SP e psicanalista winnicottiana filiada ao IBPW e à IWA. Atua há mais de 15 anos na
+                Larissa Garcia Ponce é psicóloga formada pela UNESP (CRP 08/24725), <mark className="grifo">mestre e doutora em Psicologia
+                Clínica pela PUC-SP</mark> e psicanalista winnicottiana filiada ao IBPW e à IWA. Atua há <mark className="grifo">mais de 15 anos</mark> na
                 clínica com adolescentes, adultos e idosos. No mestrado, estudou os cuidados oferecidos a crianças e
                 adolescentes em acolhimento institucional e, no doutorado, as estratégias e os desafios da psicoterapia
                 psicanalítica com crianças institucionalizadas. Aprofundou-se nos pressupostos teórico-técnicos
@@ -412,16 +413,16 @@ export default function CursoPage() {
               </p>
               <h3 className="heading-h3 pt-2">Docência</h3>
               <p>
-                Há uma década dedica-se à docência. É professora da especialização em Psicoterapia Psicanalítica
-                Contemporânea da EPPM, onde foi coordenadora pedagógica de cursos em Psicanálise Winnicottiana, e da
-                Pós-Graduação em Psicanálise Winnicottiana da PUC-PR, com disciplinas sobre escuta, comunicação e
+                Há <mark className="grifo">uma década</mark> dedica-se à docência. É professora da especialização em Psicoterapia Psicanalítica
+                Contemporânea da EPPM, onde foi <mark className="grifo">coordenadora pedagógica</mark> de cursos em Psicanálise Winnicottiana, e da{" "}
+                <mark className="grifo">Pós-Graduação em Psicanálise Winnicottiana da PUC-PR</mark>, com disciplinas sobre escuta, comunicação e
                 interpretação no setting, organização do pensamento clínico e as propostas teórico-clínicas de
-                Winnicott. É idealizadora da Imersão Winnicottiana.
+                Winnicott. É <mark className="grifo">idealizadora da Imersão Winnicottiana</mark>.
               </p>
               <h3 className="heading-h3 pt-2">Supervisão clínica</h3>
               <p>
-                Há mais de dez anos realiza supervisão clínica individual e em grupo, tendo acompanhado mais de 120
-                profissionais no atendimento de crianças, adolescentes, adultos e quadros graves. Na supervisão,
+                Há <mark className="grifo">mais de dez anos</mark> realiza supervisão clínica individual e em grupo, tendo acompanhado <mark className="grifo">mais de 120
+                profissionais</mark> no atendimento de crianças, adolescentes, adultos e quadros graves. Na supervisão,
                 dedica atenção ao desenvolvimento profissional dos supervisionandos e à angústia própria do
                 psicoterapeuta iniciante.
               </p>
