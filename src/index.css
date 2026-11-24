@@ -325,9 +325,7 @@ body {
   .curso-subtitulo { font-size: 1.85rem; }
 }
 mark.grifo {
-  background: linear-gradient(transparent 45%, #f6c6e4 45%);
-  color: inherit;
-  padding: 0 0.1em;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  background: none;
+  color: #b01e8c;
+  font-weight: 700;
 }

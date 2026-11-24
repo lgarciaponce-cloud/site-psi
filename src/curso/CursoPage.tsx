@@ -198,7 +198,7 @@ export default function CursoPage() {
                 Imersão Winnicottiana
                 <span className="block curso-subtitulo">Criando-Encontrando a Teoria e a Clínica</span>
               </h1>
-              <p className="inline-block bg-[#c5e6e8] text-[#8b4a7a] px-4 py-1.5 rounded-[6px] text-sm font-semibold mb-5">
+              <p className="inline-block bg-[#c5e6e8] text-[#8b4a7a] px-4 py-1.5 rounded-[6px] text-base md:text-xl font-semibold mb-5">
                 Curso de Psicanálise Winnicottiana: amadurecimento, diagnóstico e manejo clínico
               </p>
               <p className="body-text text-base md:text-lg mb-4">
