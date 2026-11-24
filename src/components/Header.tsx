@@ -61,7 +61,7 @@ export const Header: React.FC = () => {
 
             {/* 2. Imersão Winnicottiana (Pílula em destaque primário #d228a7 com ícone de curso em vídeo) */}
             <a
-              href="#imersao-detalhes"
+              href="/curso-psicanalise-winnicottiana/"
               className="w-auto inline-flex items-center justify-center gap-1 sm:gap-1.5 md:gap-2 px-3 sm:px-3.5 md:px-4 py-1.5 sm:py-2 rounded-full bg-[#d228a7] text-[#ffffff] text-xs sm:text-[13px] md:text-sm font-medium whitespace-nowrap shadow-xs hover:brightness-90 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 ease-in-out shrink-0 focus-visible:outline-2 focus-visible:outline-[#d228a7]"
             >
               <MonitorPlay className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" aria-hidden="true" />

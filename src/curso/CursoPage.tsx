@@ -394,10 +394,10 @@ export default function CursoPage() {
         <Section id="docente" title="Quem conduz: Larissa Garcia Ponce" bg="bg-[#ffffff]">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_1.6fr] gap-8 items-start">
             <img
-              src="/larissa_escrevendo.jpg"
-              alt="Larissa Garcia Ponce escrevendo em seu consultório"
-              width={1365}
-              height={2048}
+              src="/curso/larissa-quadro-winnicott.jpg"
+              alt="Larissa Garcia Ponce ao lado de um quadro com fotografia de D. W. Winnicott"
+              width={768}
+              height={1024}
               loading="lazy"
               className="w-full max-w-[320px] mx-auto rounded-[16px] shadow-md object-cover"
             />
@@ -417,7 +417,7 @@ export default function CursoPage() {
                 Contemporânea da EPPM, onde foi coordenadora pedagógica de cursos em Psicanálise Winnicottiana, e da
                 Pós-Graduação em Psicanálise Winnicottiana da PUC-PR, com disciplinas sobre escuta, comunicação e
                 interpretação no setting, organização do pensamento clínico e as propostas teórico-clínicas de
-                Winnicott. É palestrante e idealizadora da Imersão Winnicottiana.
+                Winnicott. É idealizadora da Imersão Winnicottiana.
               </p>
               <h3 className="heading-h3 pt-2">Supervisão clínica</h3>
               <p>
@@ -426,7 +426,30 @@ export default function CursoPage() {
                 dedica atenção ao desenvolvimento profissional dos supervisionandos e à angústia própria do
                 psicoterapeuta iniciante.
               </p>
+              <h3 className="heading-h3 pt-2">Palestras</h3>
+              <p>
+                Atua também como palestrante, levando a psicanálise winnicottiana a eventos e encontros dirigidos a
+                psicólogos, psicanalistas e estudantes.
+              </p>
             </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+            {[
+              ["/curso/palestra-2.jpg", "Larissa Garcia Ponce em palestra, diante do telão com sua marca", 900, 899],
+              ["/curso/palestra-1.jpg", "Larissa Garcia Ponce em palestra, sentada com microfone", 900, 1071],
+              ["/curso/aula-docente.jpg", "Larissa Garcia Ponce conduzindo uma aula", 900, 777],
+            ].map(([src, alt, w, h]) => (
+              <img
+                key={src as string}
+                src={src as string}
+                alt={alt as string}
+                width={w as number}
+                height={h as number}
+                loading="lazy"
+                className="w-full aspect-square rounded-[12px] shadow-sm object-cover object-top"
+              />
+            ))}
           </div>
 
           <h3 className="heading-h3 mt-10 mb-4">Trabalhos publicados em destaque</h3>
@@ -521,10 +544,10 @@ export default function CursoPage() {
               <CTA label="Garantir minha vaga na Imersão" />
             </div>
             <img
-              src="/larissa_coracao.jpg"
-              alt="Larissa Garcia Ponce sorrindo, segurando uma almofada em forma de coração"
-              width={1066}
-              height={1600}
+              src="/curso/imersao-card.jpg"
+              alt="Cartaz da Imersão Winnicottiana: mais de 12 horas de conteúdo imersivo, 12x de R$ 111,70, com Larissa Ponce"
+              width={719}
+              height={1280}
               loading="lazy"
               className="w-full max-w-[280px] mx-auto rounded-[16px] shadow-md object-cover"
             />
