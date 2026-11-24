@@ -96,7 +96,14 @@ export const ImersaoDetalhes: React.FC = () => {
             ></iframe>
           </div>
 
-          <div>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <a
+              href="/curso-psicanalise-winnicottiana/"
+              className="btn-secondary inline-flex"
+            >
+              <BookOpen className="w-4 h-4" aria-hidden="true" />
+              <span>Ver programa completo, preço e perguntas frequentes</span>
+            </a>
             <a
               href={LINKS.hotmart}
               target="_blank"
