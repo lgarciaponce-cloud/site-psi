@@ -6,3 +6,5 @@ User-agent: ClaudeBot
 Disallow: /wp-content/uploads/
 Disallow: /images/
 Disallow: /media/
+
+Sitemap: https://www.larissaponce.com.br/sitemap.xml
