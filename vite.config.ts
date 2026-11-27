@@ -11,6 +11,7 @@ export default defineConfig(() => {
         input: {
           main: path.resolve(__dirname, 'index.html'),
           curso: path.resolve(__dirname, 'curso-psicanalise-winnicottiana/index.html'),
+          artigoManejo: path.resolve(__dirname, 'artigos/manejo-clinico-winnicottiano/index.html'),
         },
       },
     },
